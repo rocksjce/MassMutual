@@ -9,5 +9,3 @@
       And total balance should be correct based on the values listed on the screen
       And values are formatted as currencies
       And the total balance matches the sum of the values
-
-

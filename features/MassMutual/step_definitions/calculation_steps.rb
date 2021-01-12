@@ -16,7 +16,7 @@ Then(/^value count on the screen should be (.*)$/) do |val|
 end
 
 Then(/^value on the screen should be greater than (\d+)$/) do |count|
-  pending
+  @mass_mutual.booking_of_flight(count)
 end
 
 Then(/^total balance should be correct based on the values listed on the screen$/) do
